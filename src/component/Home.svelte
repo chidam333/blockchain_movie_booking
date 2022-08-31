@@ -4,7 +4,7 @@ import { each, element } from "svelte/internal";
     let dispatch=createEventDispatcher()
     $: i=0;
     export let state =1;
-    let carele=[{t:'joker',img:'src/assets/Bahm.jpg'},{t:'1917',img:'src/assets/1917.jpg'},{t:'Aquaman',img:'src/assets/aqua.jpg'}]
+    let carele=[{t:'RRR',img:'https://images.livemint.com/img/2022/01/01/1600x900/1500x500_1641040531586_1641040545205.jpg'},{t:'KGF 2',img:'https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/KGF-chapter2.jpg?itok=wpYqmIzZ'},{t:'Pushpa : Rise',img:'https://industryhit.com/t/wp-content/uploads/2021/12/Pushpa-Movie-Review.jpg'}]
     let posters=[{t:'joker',img:'https://images.unsplash.com/photo-1620510625142-b45cbb784397',desc:'An intresting thriller on how society changes a person'},{t:'Aquaman',img:'https://images.unsplash.com/photo-1583514735580-650d4a4ef5de',desc:'An starter dc movie of a superhero'},{t:'ZNMD',img:'https://flxt.tmsimg.com/assets/p8424501_p_v12_ae.jpg',desc:'A fun adventure reunion movie in hindi'},{t:'asuran',img:'src/assets/pasu.jpg',desc:'An intresting thriller of a dad and his child trying to escape after murder'}]
     const left = ()=>{
         console.log(i)
